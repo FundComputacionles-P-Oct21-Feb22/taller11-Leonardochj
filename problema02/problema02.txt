@@ -1,0 +1,13 @@
+// problema 02
+
+1. Inicio
+2. funcion principal()
+3,   obtenerArreglo
+4. fin funcion principal
+
+5. funcion obtenerArreglo
+6.   (arreglo(5), x(50)[{a-z}, {A-Z}, "BS"])
+7.   Para(indice <-- 0, indice < 5, 1) haga
+8.        Escribir arreglo[indice]
+9.   Fin_Para
+10.fin funcion obtenerArreglo

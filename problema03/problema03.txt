@@ -1,0 +1,47 @@
+// problema 03
+
+1. Inicio
+2. funcion principal()
+3.   lado, d[0, n]
+4.   baseTriangulo, d[0, n]
+5.   baseRectangulo, d[0, n]
+6.   alturaTriangulo, d[0 ,n]
+7.   alturaRectangulo, d[0, n]
+8.   numero, i[0, n]
+10.  Escribir "Ingresar el numero"
+11.  Leer numero
+12.  Escribir "Ingresar la base del triangulo"
+13.  Leer baseTriangulo
+14.  Escribir "Ingresar el base del rectangulo"
+15.  Leer baseRectangulo
+16.  Escribir "Ingresar el altura del triangulo"
+17.  Leer alturaTriangulo
+18.  Escribir "Ingresar la altura del rectangulo"
+19.  Leer alturaRectangulo
+20.  Escribir "Ingresar el lado del cuadrado"
+21.  Leer lado
+22.  Si (numero == 1) entonces
+23.      obtenerAreaCuadrado(lado)
+24.  Si (numero == 2) entonces
+25.      obtenerAreaTriangulo(baseTriangulo, alturaTriangulo)
+26.  Si (numero == 3) entonces
+27.      obtenerAreaRectangulo(baseRectangulo, alturaRectangulo)
+28. fin funcion principal
+
+29. funcion obtenerAreaCuadrado(a, d)
+30.  p, d[0, n]
+31.  p <-- a * a * a * a
+32.  Escribir p
+33. fin funcion obtenerAreaCuadrado
+
+34. funcion obtenerAreaTriangulo(a, d; b, d)
+35.  p, d[0, n]
+36.  p <-- (a * b)/2
+37.  Escribir p
+38. fin funcion obtenerAreaTriangulo
+
+39. funcion obtenerAreaRectangulo(a, d; b, d)
+40.  p, d[0, n]
+41.  p <-- a * b
+42.  Escribir p
+43. fin funcion obtenerAreaRectangulo

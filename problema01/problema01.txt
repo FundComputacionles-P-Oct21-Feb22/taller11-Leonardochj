@@ -1,0 +1,54 @@
+// problema 01
+
+1. Inicio
+2. funcion principal()
+3.    valorKilovatio, d[0, n]
+4.    numeroKilovatios, i[0, n]
+5.    valorInmueble, d[0, n]
+6.    String nombre, x(50)[{a-z}, {A-Z}, "BS"]
+7.    cedula, i[0, n]
+9.    numero, i[0, n]
+10.   Escribir "Ingrese el nombre del cliente"
+11.   Leer nombre
+12.   Escribir "Ingrese la cedula del cliente"
+13.   Leer cedula
+14.   Escribir "Ingrese el valor del kilovatio"
+15.   Leer valorKilovatio
+16.   Escribir "Ingrese el numero de kilovatios"
+17.   Leer numeroKilovatios
+18.   Escribir "Ingrese el valor del inmueble"
+19.   Leer valorInmueble
+20.   Si (numero == 1) entonces
+21.       calcularValorLuz(nombre, cedula, obtenerPlanilla(valorKilovatio, numeroKilovatios))
+22.   Si (numero == 2) entonces
+23.       calcularPredio(nombre, cedula, obtenerValorPredio(valorInmueble))
+24. fin funcion principal
+
+25. funcion calcularValorLuz(a, x(50); b, i; c, d)
+26.   mensaje x(50)[{a-z}, {A-Z}, {1-10}, "BS"]
+27.   mensaje <-- "Cliente " + a + " con " + b + " debe cancelar el valor de " + c
+28.   Escribir mensaje
+29. fin funcion calcularValorLuz
+
+30. funcion calcularPredio(a, x(50); b, i; c, d)
+31.   mensaje x(50)[{a-z}, {A-Z}, {1-10}, "BS"]
+32.   mensaje <-- "Cliente " + a + " con " + b + " debe cancelar el valor de " + c
+33.   Escribir mensaje
+34. fin funcion calcularPredio
+
+35. funcion obtenePlanilla(a, d; b, i) : d
+36.   p, i[0, n]
+37.   p <-- a * b
+38.   retorna p
+39. fin funcion obtenerPlanilla
+
+40. funcion obtenerValorPredio(a, d) : d
+41.   p, i[0,n]
+42.   p <-- (a * 2)/100
+43.   retorna p
+44. fin funcion obtenerValorPredio
+
+
+
+
+   
